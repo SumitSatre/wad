@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Mobile Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        .footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- First page -->
+    <div data-role="page" id="home">
+        <div data-role="header">
+            <h1>Welcome</h1>
+            <!-- Navigation Bar -->
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page1" class="ui-btn-active">One</a></li>
+                    <li><a href="#page2">Two</a></li>
+                    <li><a href="#page3">Three</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div role="main" class="ui-content">
+            <!-- Grid Layout -->
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <div class="ui-bar ui-bar-a" style="height:60px">Block A</div>
+                </div>
+                <div class="ui-block-b">
+                    <div class="ui-bar ui-bar-a" style="height:60px">Block B</div>
+                </div>
+            </div>
+
+            <!-- Open Panel Button -->
+           <a href="#panel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open Panel</a>
+            <!-- Open Dialog Button -->
+            <a href="#dialog" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" data-rel="dialog" data-transition="pop">Open Dialog</a>
+            <!-- Slider -->
+            <div data-role="rangeslider">
+                <label for="range-slider">Range Slider:</label>
+                <input type="range" name="range-slider" id="range-slider" min="0" max="100" value="50">
+            </div>
+        </div>
+
+        <div data-role="footer" class="footer">
+            <h4>Footer</h4>
+            <p>This is the footer section of the website.</p>
+            <p>&copy; 2023 Yash Jadhav</p>
+        </div>
+        <div data-role="panel" id="panel" data-position="right" data-display="push">
+            <h3>Panel</h3>
+            <p>This is a panel.</p>
+        </div>
+    </div>
+
+   <!-- Side Panel -->
+    
+
+    <!-- Second page -->
+    <div data-role="page" id="page1">
+        <div data-role="header">
+            <h1>Page One</h1>
+            <!-- Navigation Bar -->
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#page2">Two</a></li>
+                    <li><a href="#page3">Three</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div role="main" class="ui-content">
+            <p>This is page one.</p>
+        </div>
+
+        <div data-role="footer" class="footer">
+            <h4>Footer</h4>
+            <p>&copy; 2023 Yash Jadhav</p>
+        </div>
+    </div>
+
+    <!-- Third page -->
+    <div data-role="page" id="page2">
+        <div data-role="header">
+            <h1>Page Two</h1>
+            <!-- Navigation Bar -->
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#page1">One</a></li>
+                    <li><a href="#page3">Three</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div role="main" class="ui-content">
+            <p>This is page two.</p>
+        </div>
+
+        <div data-role="footer" class="footer">
+            <h4>Footer</h4>
+            <p>&copy; 2023 Yash Jadhav</p>
+        </div>
+    </div>
+
+    <!-- Fourth page -->
+    <div data-role="page" id="page3">
+        <div data-role="header">
+            <h1>Page Three</h1>
+            <!-- Navigation Bar -->
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#page1">One</a></li>
+                    <li><a href="#page2">Two</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div role="main" class="ui-content">
+            <p>This is page three.</p>
+        </div>
+
+        <div data-role="footer" class="footer">
+            <h4>Footer</h4>
+            <p>&copy; 2023 Yash Jadhav</p>
+        </div>
+    </div>
+
+    <!-- Dialog Box -->
+    <div data-role="dialog" id="dialog">
+        <div data-role="header">
+            <h1>Dialog</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <p>This is a dialog box.</p>
+            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-rel="back">Close</a>
+        </div>
+    </div>
+
+    <script>
+        $(document).on('pagecreate', '#home', function () {
+            // Event for slider
+            $('#range-slider').on('slidestop', function () {
+                alert('Slider value: ' + $(this).val());
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Additional CSS styles can be added here */
+  </style>
+</head>
+<body>
+    <!-- Navbar component -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Registration Form</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+   <!-- Registration Form -->
+  <div class="container mt-4">
+    <form>
+      <div class="mb-3">
+        <label for="fname" class="form-label">First Name:</label>
+        <input type="text" class="form-control" id="fname" name="fname">
+      </div>
+      <div class="mb-3">
+        <label for="lname" class="form-label">Last Name:</label>
+        <input type="text" class="form-control" id="lname" name="lname">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" class="form-control" id="email" name="email">
+      </div>
+      <div class="mb-3">
+        <label for="num" class="form-label">Contact No.:</label>
+        <input type="tel" class="form-control" id="num" name="num">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Qualification:</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="quali" id="10th" value="10th">
+          <label class="form-check-label" for="10th">10th</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="quali" id="12th" value="12th">
+          <label class="form-check-label" for="12th">12th</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="quali" id="Graduation" value="Graduation">
+          <label class="form-check-label" for="Graduation">Graduation</label>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">City:</label>
+        <select class="form-select" id="city" name="city">
+          <option value="pune" selected>Pune</option>
+          <option value="mum">Mumbai</option>
+          <option value="sat">Satara</option>
+          <option value="nagar">Nagar</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-6">
+            <!-- Card component (Card 1) -->
+        <div class="card">
+          <div class="card-header">Card 1</div>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint libero repudiandae temporibus sequi sed aspernatur in, eos, odit illum eius nesciunt quia error reiciendis! Dolores doloribus doloremque molestias laboriosam officiis?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+            <!-- Card component (Card 2) -->
+        <div class="card">
+          <div class="card-header">Card 2</div>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, iste natus eos ad, similique cumque molestiae veritatis, amet autem voluptas voluptate. Ad beatae cupiditate voluptates. Rerum debitis placeat reiciendis consectetur.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- grid -->
+  <div class="container mt-4">
+    <div class="row bg-info">
+      <div class="col-sm-2">Column 1</div>
+      <div class="col-sm-2">Column 2</div>
+      <div class="col-sm-2">Column 3</div>
+      <div class="col-sm-2">Column 4</div>
+    </div>
+  </div>
+
+  <div class="container mt-4">
+    <!-- Badge component -->
+    <button class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="No. of Registrations">No. of Registrations <span class="badge bg-dark">0</span></button>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+
+   <!-- Script to initialize tooltips -->
+   <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  </script>
+</body>
+</html>
