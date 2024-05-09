@@ -1,0 +1,495 @@
+CSS vs Bootstrap: Differences
+May 9, 2024
+Page No.
+Oral Question Bank
+Date
+> How to write CSS animation?
+25 What is the difference between Container and Container-fluid?"
+3) Web page 1 - developed using 1- HTML+CSS + Boot-
+Strap
+Web page 2 developed using React Which one is better why? 47
+4) Give examples of unclosed tag.
+5) What is the difference between css and boot- Strap?
+67. How to indude badges in web page?.
+> What are the grid classes available in bootstrap?
+8) How many columns are allowed in bootstrap. grid system?
+9> Give real time example. 10 What of AJAX. is the difference between Scripting lang
+and programming language? Scripting language
+denotte Java Script Object 11). How to denote Javas Object? and JSON
+12) What is the difference between GET and POST method? 11
+13) Explain the procedure of and property with syntax AJAX with each method
+147 the Session storage? difference between localstorage and
+15) In which format, (JavaScript Object or JSON Object) data will be stored in local Storage?
+16) Which method is used to store data in local
+Storage? 17) What is JavaScript? How to used JavaScript?
+
+
+explain all questions answers
+ChatGPT
+Sure, let's go through each question and provide an explanation:
+
+How to write CSS animation?
+CSS animations are created using the @keyframes rule, which defines the animation behavior at specific points during the animation sequence. You can then apply these animations to elements using the animation property in CSS. This property allows you to specify the name of the animation, its duration, timing function, delay, and other parameters.
+What is the difference between Container and Container-fluid?
+In Bootstrap, a container class creates a fixed-width container, while a container-fluid class creates a full-width container that spans the entire width of the viewport. The choice between them depends on the design requirements of your website.
+Web page 1 - developed using HTML+CSS + Bootstrap, Web page 2 developed using React. Which one is better why?
+This question is subjective and depends on various factors such as project requirements, complexity, scalability, and developer expertise. HTML+CSS+Bootstrap is a traditional approach for building static websites, whereas React is a JavaScript library for building dynamic and interactive user interfaces. React offers benefits such as component-based architecture, virtual DOM, and easier state management, making it suitable for complex applications.
+Give examples of unclosed tag.
+An example of an unclosed tag in HTML is <img> for an image tag or <input> for an input field. These tags do not require a closing tag in HTML.
+What is the difference between CSS and Bootstrap?
+CSS (Cascading Style Sheets) is a language used for styling web pages, defining the presentation of HTML elements. Bootstrap is a front-end framework that provides pre-designed CSS and JavaScript components for building responsive and mobile-first web projects. While CSS is a language, Bootstrap is a library that utilizes CSS along with JavaScript for enhanced functionality.
+How to include badges in a web page?
+Badges can be included in a web page using Bootstrap by applying the badge class to an element such as a <span> or <a>. You can customize the appearance of badges using Bootstrap's utility classes or by defining custom styles in CSS.
+What are the grid classes available in Bootstrap?
+Bootstrap provides a grid system with classes such as col-, col-sm-, col-md-, col-lg-, and col-xl-, which define the width of columns at different breakpoints for responsive layouts.
+How many columns are allowed in Bootstrap grid system?
+In Bootstrap's grid system, the maximum number of columns allowed in a row is 12. You can divide the row into 12 columns and allocate different widths to each column accordingly.
+Give a real-time example of AJAX.
+An example of AJAX (Asynchronous JavaScript and XML) is when a web page loads initially with some content, and then, using AJAX, additional data is fetched from the server and displayed on the page without requiring a full page refresh. For instance, fetching and displaying search results as the user types in a search box without reloading the entire page.
+What is the difference between a scripting language and a programming language?
+A scripting language like JavaScript is typically interpreted line by line and is often used for automating tasks within other software environments or for web development. On the other hand, a programming language like Java requires compilation before execution and is used to create standalone applications or software.
+How to denote JavaScript Object and JSON?
+In JavaScript, objects are denoted using curly braces {} and can contain key-value pairs. JSON (JavaScript Object Notation) is a lightweight data interchange format derived from JavaScript object syntax, but it's a text format and needs to follow specific rules, such as using double quotes for property names and values.
+What is the difference between the GET and POST method?
+GET and POST are HTTP methods used to send data to the server. GET sends data in the URL, visible to users, and has restrictions on the amount of data that can be sent. POST sends data in the HTTP request body, not visible to users, and can handle larger amounts of data.
+Explain the procedure of AJAX with each method and property with syntax.
+AJAX (Asynchronous JavaScript and XML) is used to make asynchronous HTTP requests from the browser to the server without reloading the entire page. It involves creating an XMLHttpRequest object (or using fetch API) to send requests, handling response data asynchronously, and updating the page dynamically. The syntax varies depending on the method and property being used, such as XMLHttpRequest.open() to specify the request method and URL, XMLHttpRequest.send() to send the request, and XMLHttpRequest.onreadystatechange to handle the response.
+What is the difference between sessionStorage and localStorage?
+Both sessionStorage and localStorage are web storage APIs that allow data to be stored on the client-side browser. The main difference is that sessionStorage data is cleared when the browser session ends (i.e., when the browser is closed), whereas localStorage data persists even after the browser is closed and reopened.
+In which format (JavaScript Object or JSON Object) will data be stored in localStorage?
+Data stored in localStorage is stored as strings. It can be converted to and from JSON format using JavaScript's JSON.stringify() and JSON.parse() methods.
+Which method is used to store data in localStorage?
+The localStorage.setItem() method is used to store data in the localStorage object. It takes two arguments: a key and a value, and stores the data persistently on the client-side browser.
+What is JavaScript? How is JavaScript used?
+JavaScript is a high-level, interpreted programming language primarily used for adding interactivity and dynamic behavior to web pages. It can be used to manipulate HTML content, handle user interactions, validate forms, create animations, fetch data from servers asynchronously, and much more. JavaScript can be embedded directly into HTML documents or included as external script files.
+Page No.
+Date
+187 What are the types of Scripting language?
+var ... Key word?
+20) Write the syntax of arrow function...... 217 Difference between Traditional web. application and
+AJAX based web application. 22) What is JQuery? herite syntax of JQuery.
+23) Study all commands of Git with their use. 24) What are the commands to use docker?:"
+25) How to create image in docker?...
+26) What is FROM COPY and CMD instruction?
+27> What is alpine?
+28) What are the pre-requisite to use docker?
+(system configuration)
+... 29) How to denote property. binding. erent binding and
+interpolation binding? 30) What is @Injected?
+How many files gets generated Component creation at the time of
+327 What is the difference between template driven and Reactive form?
+• 33) Angular follow's MVC architecture:
+Which file act as model?
+Whick file act as View?!! Which file act as Controller?...
+14
+34> What is the difference between typescript and JavaScript
+35) What is the difference between Angular and ReactJS? 367 How to use express as middleware?; .....
+37) How to install external modules?
+38 How to create HTTP Server?
+39 What is difference between HTTP Server and Socket
+Server?
+ 
+ChatGPT
+Let's break down each question:
+
+What are the types of scripting languages?
+Scripting languages can be categorized into various types, including:
+Server-side scripting languages (e.g., PHP, Python, Ruby)
+Client-side scripting languages (e.g., JavaScript)
+Shell scripting languages (e.g., Bash, PowerShell)
+Markup languages with scripting capabilities (e.g., HTML with JavaScript)
+What is the var keyword?
+In JavaScript, the var keyword is used to declare variables. Variables declared with var have function scope or global scope, depending on where they are declared. However, var has some drawbacks, such as variable hoisting and lack of block scope, which led to the introduction of let and const in ECMAScript 6.
+Write the syntax of an arrow function.
+Arrow functions in JavaScript provide a concise syntax for writing function expressions. The basic syntax is:
+javascript
+Copy code
+const functionName = (parameters) => {
+  // Function body
+};
+Difference between traditional web applications and AJAX-based web applications.
+Traditional web applications typically involve full-page reloads when interacting with the server, resulting in slower user experiences. AJAX-based web applications, on the other hand, use asynchronous requests to fetch data from the server without reloading the entire page, resulting in faster and more dynamic user experiences.
+What is jQuery? Provide its syntax.
+jQuery is a fast, small, and feature-rich JavaScript library that simplifies various tasks like DOM manipulation, event handling, AJAX requests, and animations. The syntax for including jQuery in a web page is:
+html
+Copy code
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+Study all commands of Git with their use.
+Git commands include git init, git add, git commit, git push, git pull, git clone, git branch, git checkout, git merge, etc. Each command serves a specific purpose in version control, such as initializing a repository, staging changes, committing changes, pushing to a remote repository, pulling changes from a remote repository, branching, switching branches, merging branches, etc.
+What are the commands to use Docker?
+Docker commands include docker build, docker run, docker pull, docker push, docker images, docker ps, docker exec, docker-compose, etc. These commands are used to manage Docker containers and images, such as building Docker images, running containers, pulling images from Docker Hub, pushing images to Docker Hub, listing images and containers, executing commands in containers, managing multi-container applications with Docker Compose, etc.
+How to create an image in Docker?
+To create an image in Docker, you typically write a Dockerfile that defines the configuration of the image, including the base image, dependencies, environment variables, and commands to run. Then, you use the docker build command to build the image from the Dockerfile.
+What is FROM, COPY, and CMD instruction in Docker?
+FROM specifies the base image for the Docker image.
+COPY copies files and directories from the host filesystem to the Docker image filesystem.
+CMD specifies the command to run when the Docker container starts.
+What is Alpine?
+Alpine Linux is a lightweight Linux distribution commonly used as a base image for Docker containers due to its small size and security-focused design.
+What are the prerequisites to use Docker?
+Prerequisites for using Docker include installing Docker Engine on your system, ensuring that virtualization is enabled (for Docker Desktop), and having basic knowledge of Docker concepts such as containers, images, and Dockerfile.
+How to denote property binding, event binding, and interpolation binding?
+In Angular, property binding is denoted using square brackets [], event binding is denoted using parentheses (), and interpolation binding is denoted using double curly braces {{}}.
+What is @Injectable?
+@Injectable is a decorator in Angular used to annotate a class as a dependency-injectable service. It allows the class to be injected as a dependency into other components or services.
+How many files get generated during component creation in Angular?
+When creating an Angular component using the Angular CLI (ng generate component), several files are generated, including a TypeScript file (.ts), an HTML template file (.html), a CSS file (.css or .scss), and a test file (.spec.ts).
+What is the difference between template-driven and reactive forms in Angular?
+Template-driven forms rely on directives in the HTML template to build and validate forms, while reactive forms use explicit form control objects in the component class to manage form data and validation.
+Angular follows MVC architecture. Which file acts as a model, view, and controller?
+In Angular's MVC architecture:
+Model: The model represents data and is typically managed within components or services.
+View: The view is the HTML template file associated with a component.
+Controller: In Angular, the controller logic is implemented within the component class.
+What is the difference between TypeScript and JavaScript?
+TypeScript is a superset of JavaScript that adds optional static typing, classes, interfaces, and other features to JavaScript. TypeScript code is transpiled into JavaScript code that can run in any JavaScript environment.
+What is the difference between Angular and ReactJS?
+Angular is a comprehensive front-end framework developed and maintained by Google, offering a full solution for building web applications. ReactJS, on the other hand, is a JavaScript library developed by Facebook for building user interfaces, focusing solely on the view layer.
+How to use Express as middleware?
+In Node.js, Express middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application's request-response cycle. Middleware functions can perform tasks such as parsing request bodies, logging requests, authenticating users, etc.
+How to install external modules?
+In Node.js, external modules can be installed using the npm (Node Package Manager) command-line tool. For example, to install a module named module-name, you would run npm install module-name.
+How to create an HTTP Server?
+In Node.js, an HTTP server can be created using the built-in http module. You would create an instance of the http.Server class, listen for incoming requests on a specific port, and handle those requests using request and response objects.
+What is the difference between an HTTP Server and a Socket Server?
+An HTTP server is used to serve HTTP requests and responses over the web using the HTTP protocol. A socket server, on the other hand, is used for bidirectional communication between clients and servers over a persistent TCP connection, allowing real-time data exchange. Socket servers are commonly used for applications such as chat applications, online gaming, and IoT applications.
+Page No.
+Date
+40% What type of data is stored in MongoDB?
+(Structured, Sem-structured, unstructured)
+41) What is the difference between PUT and PATCH?
+42 How to create collection in MongoDB using mongoose?
+43) What is the default port for MongoDB? Angular, React ar and
+44) How to insert more than one documents wing Insert Command of MongoDB?
+45) How to delete collection?
+ChatGPT
+Let's tackle each question:
+
+What type of data is stored in MongoDB? (Structured, Semi-structured, Unstructured)
+MongoDB stores semi-structured data. While it does have some structure due to the use of documents and collections, it allows for flexible schemas, making it suitable for storing data that may not fit neatly into traditional relational databases.
+What is the difference between PUT and PATCH?
+PUT is an HTTP method used to update or replace an existing resource entirely. It replaces the entire resource with the new one provided.
+PATCH is an HTTP method used to partially update an existing resource. It only updates the fields that are provided in the request, leaving the rest of the resource unchanged.
+How to create a collection in MongoDB using Mongoose?
+In Mongoose (a MongoDB object modeling tool for Node.js), you can create a collection implicitly by defining a Mongoose model. When you define a schema and create a model using mongoose.model(), Mongoose automatically creates a collection in the MongoDB database with the pluralized name of the model.
+What is the default port for MongoDB?
+The default port for MongoDB is 27017.
+How to insert more than one document using the Insert Command of MongoDB?
+In MongoDB, you can insert multiple documents using the insertMany() method. This method takes an array of documents as its parameter and inserts them into the specified collection.
+How to delete a collection?
+In MongoDB, you can delete a collection using the drop() method. This method is called on the collection object and removes the entire collection from the database.
+Would you like more detailed explanations or examples for any of these questions?
+
+Assignment 1(9)
+What is HTML, Css and bootstrap ?
+- What is hypertext?
+What is mark-up language?
+Can
+we make dynamic webpage using only
+HTML? Diff. between static and dynamic website?
+-What is the latest version of HTML52
+- What are the basic building blocks of HTML?
+-14hat is DOCTYPE?
+What is tag?
+What gre the different HTML tags?
+What is the unclased tags? What is HTML elements means?
+- What are the different HTML form controls?
+What 18 semantic HTML5 elements?
+What is co6?
+What are the ways to insert css in HTML 3
+What is css selector?
+Different types of css selectors?
+What is css transitions?
+ChatGPT
+Let's address each question:
+
+What is HTML, CSS, and Bootstrap?
+HTML (HyperText Markup Language) is the standard markup language used to create and design web pages.
+CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of HTML documents.
+Bootstrap is a popular front-end framework for developing responsive and mobile-first websites using HTML, CSS, and JavaScript.
+What is hypertext?
+Hypertext is text displayed on a computer or other electronic device with references (hyperlinks) to other text that the reader can immediately access.
+What is a markup language?
+A markup language is a system for annotating a document in a way that is syntactically distinguishable from the text. It specifies the structure and presentation of the text.
+Can we make a dynamic webpage using only HTML? What is the difference between a static and dynamic website?
+HTML alone cannot create dynamic web pages. Dynamic web pages require server-side processing or client-side scripting (such as JavaScript) to generate content dynamically. Static websites deliver the same content to all users, while dynamic websites can generate different content for each user based on various factors like user input, session data, database queries, etc.
+What is the latest version of HTML?
+HTML5 is the latest version of HTML.
+What are the basic building blocks of HTML?
+The basic building blocks of HTML are elements. These elements include tags, attributes, and content.
+What is DOCTYPE?
+DOCTYPE (Document Type Declaration) is an instruction to the web browser about what version of HTML the page is written in.
+What is a tag? What are the different HTML tags?
+A tag is a keyword or command used in HTML to define the structure and appearance of content on a web page. HTML tags can be categorized into various types, such as structural tags (e.g., <div>, <p>), text formatting tags (e.g., <strong>, <em>), and multimedia tags (e.g., <img>, <video>).
+What are unclased tags? What do HTML elements mean?
+Unclosed tags, also known as self-closing tags, are HTML tags that do not require a closing tag because they do not contain any content within them. HTML elements refer to the complete set of tags, attributes, and content that define a specific piece of content on a web page.
+What are the different HTML form controls?
+HTML form controls include input fields (e.g., text input, radio buttons, checkboxes), select lists, text areas, buttons, and form submission elements (e.g., <form>, <input type="submit">).
+What are semantic HTML5 elements?
+Semantic HTML5 elements are tags introduced in HTML5 that provide more meaningful information about the content they enclose. Examples include <header>, <nav>, <main>, <article>, <section>, <footer>, etc.
+What is CSS?
+CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of HTML documents. It controls the layout, colors, fonts, and other visual aspects of a web page.
+What are the ways to insert CSS in HTML?
+CSS can be inserted into HTML documents using inline styles, internal styles (using the <style> tag within the <head> section), or external stylesheets (linking to an external CSS file using the <link> tag).
+What is a CSS selector? Different types of CSS selectors?
+A CSS selector is a pattern used to select and style HTML elements. There are various types of CSS selectors, including element selectors, class selectors, ID selectors, descendant selectors, child selectors, attribute selectors, etc.
+What are CSS transitions?
+CSS transitions allow you to change property values smoothly over a specified duration. They are used to create animations and effects when an element changes state, such as when it is hovered over or clicked on.
+-KWhat is bootstrap?
+- What is responsive web page?
+- Why we use bootstrap?
+How to use bootstrap?
+What is container? Types of container?
+What is bootstrap grid system?
+- What are the different types of button. dosses?
+- What is 1430?
+Assignment 1(b)
+-What is AJAX?
+-Why AJAX?
+- What XMLHttpRequest object?
+What is synchronous communication and asynchronous communication?
+What is Scripting langage meins? How to display Javascript output?
+14hat is JGON?
+What is parse() and stringifye).
+Punction?
+ChatGPT
+Let's address each question:
+
+What is Bootstrap?
+Bootstrap is a front-end framework for developing responsive and mobile-first websites. It provides pre-designed CSS and JavaScript components, such as buttons, forms, navigation bars, and grid layout systems, to streamline the web development process.
+What is a responsive web page?
+A responsive web page is a web page that adapts its layout and design dynamically based on the size and orientation of the user's device screen. It ensures optimal viewing and interaction experience across a wide range of devices, including desktops, laptops, tablets, and smartphones.
+Why do we use Bootstrap? How to use Bootstrap?
+Bootstrap is used to speed up the development process and create consistent, visually appealing, and responsive web pages. It provides ready-to-use components and styles that can be easily customized and integrated into web projects. To use Bootstrap, you include its CSS and JavaScript files in your HTML documents, and then utilize its classes and components in your markup.
+What is a container? Types of containers?
+In Bootstrap, a container is a wrapper element used to center and contain the content within a fixed-width layout. There are two types of containers in Bootstrap: .container for fixed-width containers and .container-fluid for full-width containers that span the entire width of the viewport.
+What is the Bootstrap grid system?
+The Bootstrap grid system is a responsive, mobile-first grid layout system that allows developers to create complex layouts with ease. It consists of a 12-column grid, where content can be organized into rows and columns using predefined classes such as .col-, .col-sm-, .col-md-, .col-lg-, and .col-xl- to define column widths at different breakpoints for responsive design.
+What are the different types of buttons in Bootstrap?
+Bootstrap provides various button styles and sizes, including default buttons, primary buttons, secondary buttons, success buttons, danger buttons, warning buttons, info buttons, light buttons, dark buttons, and outline buttons. Each type of button has its own class in Bootstrap.
+What is AJAX?
+AJAX (Asynchronous JavaScript and XML) is a technique used in web development to send and receive data asynchronously between the web browser and the web server without reloading the entire web page. It allows for dynamic and interactive user experiences by updating parts of a web page with new data without requiring a full page refresh.
+Why do we use AJAX?
+AJAX is used to create more responsive and interactive web applications by enabling asynchronous data exchange between the client and server. It improves the user experience by allowing for faster updates and smoother interactions without interrupting the user's workflow.
+What is the XMLHttpRequest object?
+The XMLHttpRequest object is a built-in JavaScript object that provides an easy way to make HTTP requests to web servers from client-side JavaScript code. It is commonly used in AJAX applications to send and receive data asynchronously.
+What is synchronous communication and asynchronous communication?
+Synchronous communication refers to a communication process where both parties involved wait for each other to send and receive data before continuing with the next action. Asynchronous communication, on the other hand, allows both parties to continue with other tasks while waiting for a response, without blocking each other.
+What is a scripting language? How to display JavaScript output?
+A scripting language is a programming language that is interpreted rather than compiled. JavaScript is an example of a scripting language commonly used for web development. JavaScript output can be displayed in various ways, such as using console.log() for debugging purposes or updating HTML content dynamically using DOM manipulation methods like innerHTML or textContent.
+What is JSON? What are parse() and stringify() functions?
+JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. The JSON.parse() function is used to parse JSON data (a JSON string) into a JavaScript object, while the JSON.stringify() function is used to serialize a JavaScript object into a JSON string.
+Would you like more detailed explanations or examples for any of these questions?
+
+What is callback function?
+What is promise ?
+14hat is async / await function?
+Assignment 2(9) ait
+- What version control system?
+What is Git?
+What is GitHub?
+What is local repository?
+How to intitialize local repository?
+Assignment 2 (6) Docker
+What is container?
+What is Docker?
+What docker image?
+Ahat Dockerfile?
+What is bore image?
+ChatGPT
+Sure, let's address each question:
+
+What is a callback function?
+A callback function is a function passed as an argument to another function, which is then invoked inside the outer function to complete some kind of routine or action. Callbacks are commonly used in asynchronous programming to handle tasks that depend on the completion of other tasks.
+What is a promise?
+A promise is an object representing the eventual completion or failure of an asynchronous operation. It allows you to handle asynchronous operations in a more organized and readable way by chaining methods like .then() and .catch() to handle the success and failure cases respectively.
+What is an async/await function?
+async/await is a modern JavaScript feature used to handle asynchronous operations in a more synchronous-like manner. The async keyword is used to define a function as asynchronous, and the await keyword is used to pause the execution of the function until an asynchronous operation completes and returns a result.
+Assignment 2:
+
+What is a version control system?
+A version control system (VCS) is a software tool that helps track changes to files and directories over time. It allows multiple users to collaborate on projects by managing different versions of files, tracking changes made by each user, and facilitating collaboration and coordination.
+What is Git?
+Git is a distributed version control system used for tracking changes in files and coordinating work on those files among multiple people. It is commonly used for source code management in software development projects.
+What is GitHub?
+GitHub is a web-based platform built on top of Git, providing hosting for Git repositories and collaboration tools for software development projects. It allows users to store and manage Git repositories, track changes, collaborate with others, and host websites and documentation.
+What is a local repository? How to initialize a local repository?
+A local repository is a copy of a Git repository that exists on your local machine. You can initialize a local repository by navigating to the directory containing your project files in the terminal or command prompt and running the command git init. This command initializes a new Git repository in the current directory.
+Assignment 2 (continued):
+
+What is a container?
+A container is a lightweight, standalone, and executable software package that includes everything needed to run a piece of software, including the code, runtime, system tools, system libraries, and settings. Containers isolate software from its environment, making it easy to deploy and run consistently across different environments.
+What is Docker?
+Docker is a platform for developing, shipping, and running applications in containers. It provides tools and a runtime environment for managing and orchestrating containers, making it easier to build, deploy, and scale applications across different environments.
+What is a Docker image?
+A Docker image is a read-only template used to create Docker containers. It contains the code, runtime, system tools, libraries, and other dependencies required to run an application. Docker images are created using a Dockerfile and can be shared and distributed via Docker Hub or other container registries.
+What is a Dockerfile?
+A Dockerfile is a text file that contains instructions for building a Docker image. It specifies the base image, environment variables, commands, and dependencies required to create the Docker image for a specific application.
+What is a base image?
+A base image is a Docker image used as the starting point for building another image. It contains the basic runtime environment and dependencies needed to run applications but may lack specific application code and configurations. Developers typically customize base images to create specialized images for their applications.
+Feel free to ask if you need further clarification on any of these topics!
+
+Assignment 2(6) Angular-
+- What is angular?
+- What is TypeScript?
+- What is single page app!" means?
+- that is angular GLI ?
+- How to install angular CLI?
+- How to check angular version? - How to create new project?
+- How to rin angular application?
+Explain the angular project structure?
+- Explain angular architecture?
+- Ithat is component?
+- What is services?
+- What is the difference bet component and services?
+- What is data binding ?
+- What is dependency Injections?
+- What are the types of angular form?
+What is template driven form?
+- what is reactive form?
+- What is ng Model?
+- Which type of angular form is better?
+What is directives?
+- What is NgForm?
+ChatGPT
+Let's dive into each question:
+
+What is Angular?
+Angular is a popular open-source front-end framework for building web applications. It is developed and maintained by Google. Angular provides a comprehensive solution for developing dynamic, interactive, and scalable web applications using TypeScript.
+What is TypeScript?
+TypeScript is a superset of JavaScript that adds optional static typing, classes, interfaces, and other features to JavaScript. It is designed for large-scale application development and provides improved tooling, error-checking, and code organization compared to JavaScript.
+What does "single page app" mean?
+A single page application (SPA) is a web application that dynamically rewrites the current page rather than loading entire new pages from the server. SPAs provide a more fluid and responsive user experience by updating only the necessary parts of the page asynchronously.
+What is Angular CLI? How to install Angular CLI?
+Angular CLI (Command Line Interface) is a powerful tool for initializing, developing, and maintaining Angular projects. It provides commands for generating components, services, modules, and other Angular artifacts. To install Angular CLI, you can use npm (Node Package Manager) by running the command npm install -g @angular/cli.
+How to check Angular version? How to create a new project? How to run an Angular application?
+To check the Angular version, you can run the command ng version in the terminal. To create a new Angular project, you can use the command ng new project-name. To run an Angular application, navigate to the project directory and use the command ng serve or ng serve --open to automatically open the application in a browser.
+Explain the Angular project structure. Explain Angular architecture.
+The Angular project structure consists of folders for organizing different aspects of the application, such as source files, configuration files, assets, and dependencies. The main folders include src for source files, node_modules for dependencies installed via npm, angular.json for project configuration, and package.json for npm package information.
+Angular follows a modular and component-based architecture. It consists of modules, components, services, directives, and pipes. Modules help organize the application into cohesive blocks of functionality. Components are the building blocks of Angular applications, representing UI elements. Services provide reusable business logic and data access. Directives manipulate the DOM and add behavior to elements. Pipes transform data in the UI.
+What is a component? What are services? What is the difference between a component and services?
+A component is a TypeScript class that controls a part of the UI and encapsulates its own view and data logic. Components are used to build the user interface of Angular applications.
+Services are TypeScript classes that provide functionality shared across multiple components. They encapsulate business logic, data access, and other non-UI concerns.
+The main difference between components and services is that components are responsible for the UI and user interaction, while services are responsible for providing data and performing business logic. Components should be kept lightweight and focused on UI concerns, while services should handle reusable functionality and data management.
+What is data binding? What is dependency injection?
+Data binding is the process of synchronizing data between the component class and its template (HTML). Angular supports two-way data binding, where changes in the template are reflected in the component class and vice versa.
+Dependency injection (DI) is a design pattern used to manage dependencies between different parts of an application. In Angular, DI is used to inject dependencies (such as services) into components, modules, and other Angular constructs, making components more modular, reusable, and testable.
+What are the types of Angular forms? What is template-driven form? What is reactive form? What is ngModel? Which type of Angular form is better?
+Angular supports two types of forms: template-driven forms and reactive forms.
+Template-driven forms rely on directives and template-driven validation to manage form state and user input. They are suitable for simple forms with less complex validation requirements.
+Reactive forms use reactive programming techniques and form control objects to manage form state and user input. They offer more flexibility and control over form validation and are suitable for complex forms with dynamic requirements.
+ngModel is a directive in Angular used for two-way data binding between form controls and component class properties.
+The choice between template-driven and reactive forms depends on the complexity of the form and the specific requirements of the application.
+What are directives? What is NgForm?
+Directives are instructions in the DOM that tell Angular to do something to a DOM element or template. They can be used to add behavior, manipulate the DOM, or conditionally render elements.
+NgForm is a directive in Angular used to represent an Angular form and tracks the state and validity of the form controls within it. It is automatically applied to <form> elements when using template-driven forms in Angular.
+What is framework means?
+Diff between library and framework?
+What is MVC architecture?
+How to do routing in angular ?
+What is Reacts?
+Why ReactJS is fast?
+What is virtual dom?
+What are component types?
+What is props, hooks?
+Assignment 3(9)
+What is Node168
+No Why Nodels is single threaded, non-blackt
+g, asynchronous programming ?
+What is require method?
+What are the built-in modules?
+What is expressts?
+What is middleware?
+How to install expressss?
+What is express. static() method?
+ChatGPT
+Let's address each question:
+
+What does "framework" mean?
+A framework is a pre-built software platform that provides a structure and set of tools for developing applications. It typically includes libraries, APIs, and conventions to facilitate development in a specific domain, such as web development, mobile app development, or game development.
+Difference between library and framework?
+A library is a collection of reusable code modules that can be imported and used in an application to perform specific tasks. The application controls the flow of execution and uses the library as needed.
+A framework, on the other hand, is a pre-built software platform that provides a structure and set of tools for developing applications. The application is built within the framework, and the framework controls the flow of execution, often following a specific architecture or design pattern.
+What is MVC architecture?
+MVC (Model-View-Controller) is a software architectural pattern used for developing user interfaces. It separates the application into three interconnected components:
+Model: Represents the data and business logic of the application.
+View: Represents the presentation layer of the application, displaying the data to the user and handling user interactions.
+Controller: Acts as an intermediary between the model and view, handling user input, updating the model, and updating the view accordingly.
+How to do routing in Angular?
+Routing in Angular is achieved using the Angular Router module. You define routes in the application by configuring route definitions in the routing module (usually named app-routing.module.ts). Each route maps a URL path to a component. You can use the <router-outlet> directive in your application's HTML to render the components associated with different routes.
+What is React? Why is ReactJS fast? What is virtual DOM?
+React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage the state of those components efficiently. React is fast because it uses a virtual DOM (Document Object Model) to represent the UI in memory and updates only the necessary parts of the DOM when changes occur. This approach minimizes DOM manipulation and improves performance.
+What are component types? What are props, hooks?
+Component types in React refer to the different types of components you can create, such as class components and functional components.
+Props (short for properties) are a way to pass data from parent components to child components in React. Props are read-only and cannot be modified by the child components.
+Hooks are functions provided by React that allow functional components to use state and other React features. Examples of hooks include useState, useEffect, useContext, etc.
+Assignment 3:
+
+What is Node.js? Why is Node.js single-threaded, non-blocking, asynchronous programming?
+Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows developers to run JavaScript code outside the browser, enabling server-side scripting and building scalable network applications. Node.js is single-threaded and non-blocking because it uses an event-driven, asynchronous programming model. This allows Node.js to handle multiple concurrent connections efficiently without blocking the execution of other code.
+What is the require method? What are the built-in modules?
+The require method is a built-in function in Node.js used to import modules. It allows you to load external modules or files into your Node.js application.
+Built-in modules are modules that come pre-installed with Node.js and can be accessed using the require method without the need for additional installation. Examples of built-in modules include fs (file system), http (HTTP server), path (file path manipulation), etc.
+What is Express.js? What is middleware? How to install Express? What is express.static() method?
+Express.js is a web application framework for Node.js. It provides a set of features and tools for building web servers and web applications, including routing, middleware, and template engines.
+Middleware in Express.js is a function that receives the request and response objects and can perform actions or modify the request or response before passing control to the next middleware function or route handler.
+You can install Express.js in your Node.js project using npm by running the command npm install express.
+The express.static() method is a built-in middleware function in Express.js used to serve static files, such as HTML, CSS, images, and JavaScript files, from a specified directory. It is commonly used to serve the assets of a web application.
+Assignment 3(6)
+- What is API?
+- What is REST?
+What is mongoDB?
+What is diff beth Sal and mongoDB?
+What is CURD operation?
+What are REST HTTP methods ?
+- What is mongoose?
+What is schema ?
+How to create database?
+How create mongoDB?
+| Assignment 4 (9)
+-What is mobile-first?
+what is jauery?
+- What is data: attribute?
+Syntax of savery.
+ChatGPT
+Let's address each question:
+
+Assignment 3:
+
+What is API?
+API stands for Application Programming Interface. It is a set of rules, protocols, and tools that allows different software applications to communicate with each other. APIs define how software components should interact and exchange data.
+What is REST?
+REST stands for Representational State Transfer. It is an architectural style for designing networked applications. RESTful systems use standard HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations (Create, Read, Update, Delete) on resources, and they typically use JSON or XML for data exchange.
+What is MongoDB? What is the difference between SQL and MongoDB?
+MongoDB is a NoSQL database management system that stores data in flexible, JSON-like documents. Unlike traditional SQL databases, MongoDB does not require a predefined schema and uses a flexible data model. It is designed for scalability, performance, and ease of development.
+What is CRUD operation? What are REST HTTP methods?
+CRUD stands for Create, Read, Update, Delete. It refers to the four basic operations that can be performed on data: creating new records, reading existing records, updating existing records, and deleting records.
+RESTful APIs typically use the following HTTP methods to perform CRUD operations:
+GET: Read data from a resource.
+POST: Create a new resource.
+PUT: Update an existing resource.
+DELETE: Delete a resource.
+What is Mongoose? What is schema? How to create a database? How to create MongoDB?
+Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It provides a higher-level abstraction for interacting with MongoDB, including features like schema validation, middleware, and query building.
+In Mongoose, a schema defines the structure of documents in a MongoDB collection, including the fields and their types.
+To create a database in MongoDB, you simply need to start inserting data into a collection. MongoDB creates databases and collections automatically when you insert data for the first time.
+To create a MongoDB instance, you need to install MongoDB on your system and start the MongoDB server using the mongod command.
+Assignment 4:
+
+What is mobile-first?
+Mobile-first design is a design approach that prioritizes designing and developing a website or application for mobile devices first, and then scaling up to larger screens such as tablets and desktops. It ensures that the user experience is optimized for mobile devices, which are increasingly becoming the primary way users access the internet.
+What is jQuery?
+jQuery is a fast, small, and feature-rich JavaScript library designed to simplify client-side scripting and HTML DOM manipulation. It provides a set of functions and utilities for tasks such as selecting elements, traversing the DOM, handling events, and creating animations.
+What is data-attribute?
+A data attribute is a custom HTML attribute that allows developers to store extra information in HTML elements. Data attributes are prefixed with data- and can be accessed using JavaScript or CSS. They are commonly used to store data that is not visible to users but may be needed for scripting or styling purposes.
+Syntax of jQuery.
+The syntax of jQuery typically involves selecting HTML elements using CSS-style selectors and then performing actions or manipulations on those elements using jQuery methods. For example:
+javascript
+Copy code
+$(document).ready(function() {
+  // jQuery code here
+  $("button").click(function() {
+    $("p").hide();
+  });
+});
+This code hides all <p> elements when a <button> element is clicked.
