@@ -1,7 +1,7 @@
 const express = require("express")
 const mongoose = require("mongoose")
 
-var url = "mongodb+srv://Yash123:ZdKq09thHE6UmA6i@mongoyash.xp5offi.mongodb.net/doc-app"
+var url = "mongodb://127.0.0.1:27017"
 
 const app = express()
 
@@ -19,7 +19,24 @@ const employeeRouter = require("./routes/employees")
 
 app.use("/employees",employeeRouter)
 
-app.listen(8084,()=>{
+app.get("/" , (req,res)=>{
+    res.send("hello");
+})
 
+app.listen(4000,()=>{
     console.log("Server started")
 })
+
+/*
+
+http://localhost:4000/employees/delete/663cb23de09db465dc062b18
+http://localhost:4000/employees/update/663cb29730d2eb7a2ae30a3b
+http://localhost:4000/employees/
+http://localhost:4000/employees/
+
+{
+  "name" : "Vinit",
+  "designation" : "Gentle men"
+}
+
+*/

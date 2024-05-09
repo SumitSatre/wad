@@ -1,7 +1,7 @@
 const express = require("express")
 const router = express.Router();
 
-// const Employee = require("../models/employee");
+const Employee = require("../models/employee");
 const employee = require("../models/employee");
 
 router.get("/", async(req,res)=>{
@@ -24,7 +24,6 @@ router.post("/", async(req,res)=>{
    try{
     const e1 = await employee.save()
     res.send(e1)
-    res.json(e1)
    }
 
    catch(err)
