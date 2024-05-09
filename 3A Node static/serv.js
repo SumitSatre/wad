@@ -8,7 +8,7 @@ const PORT = 8000
 
 abc.use(express.static('public'));
 
-app.get('/',(req,res)=>{
+abc.get('/',(req,res)=>{
     // res.sendFile('./nav.html', {root: __dirname})
     res.sendFile('./public/a.html', {root: __dirname}) ;
 });
