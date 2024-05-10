@@ -6,3 +6,5 @@ nano sumit.txt  => CTRL + X => YES
 scp sumit.txt vagrant@Ip_address:/home/ vagrant
 
 ifconfig
+
+57pf9hUeafku@jC
