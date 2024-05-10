@@ -1,0 +1,8 @@
+id password vagrant
+ifconfig
+touch sumit.txt
+cat sumit.txt
+nano sumit.txt  => CTRL + X => YES
+scp sumit.txt vagrant@Ip_address:/home/ vagrant
+
+ifconfig

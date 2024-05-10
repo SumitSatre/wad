@@ -2,7 +2,6 @@ const express = require("express")
 const router = express.Router();
 
 const Employee = require("../models/employee");
-const employee = require("../models/employee");
 
 router.get("/", async(req,res)=>{
     try{
@@ -22,7 +21,7 @@ router.post("/", async(req,res)=>{
    })
 
    try{
-    const e1 = await employee.save()
+    const e1 = await Employee.save()
     res.send(e1)
    }
 
@@ -38,7 +37,7 @@ router.patch('/update/:id', async (req, res) => {
         const updatedData = req.body;
         const options = { new: true };
 
-        const result = await employee.findByIdAndUpdate(
+        const result = await Employee.findByIdAndUpdate(
             id, updatedData, options
         )
 
@@ -52,7 +51,7 @@ router.patch('/update/:id', async (req, res) => {
 router.delete('/delete/:id', async (req, res) => {
     try {
         const id = req.params.id;
-        const data = await employee.findByIdAndDelete(id)
+        const data = await Employee.findByIdAndDelete(id)
         res.send(`Document with ${data.name} has been deleted..`)
     }
     catch (error) {
